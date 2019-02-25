@@ -1,0 +1,86 @@
+.favorite {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../heart_image.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
+.favorite:hover {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../heart_image2.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
+.unfavorited {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../heart_image2.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
+.unfavorited:hover {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../heart_image.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
+.reply {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../reply_image.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+}
+
+.reply:hover {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../reply_image2.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+}
+
+.delete {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../delete_image.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
+.delete:hover {
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+	background: url(../delete_image2.png) no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+	background-size: cover;
+	border:0;
+}
+
