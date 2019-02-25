@@ -20,7 +20,8 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/tweet', 'HomeController@update');
+Route::post('/tweet', 'TweetsController@update');
+
 Route::get('/users', 'UsersController@index')->name('user_list');
 Route::post('/users/follow/{follow_id}', 'UsersController@follow');
 Route::post('/users/follow/{follow_id}/delete', 'UsersController@destroy');
