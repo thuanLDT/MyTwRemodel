@@ -21,6 +21,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/tweet', 'TweetsController@update');
+Route::post("/tweet/delete","TweetsController@tweetdelete");
 
 Route::get('/users', 'UsersController@index')->name('user_list');
 Route::post('/users/follow/{follow_id}', 'UsersController@follow');
